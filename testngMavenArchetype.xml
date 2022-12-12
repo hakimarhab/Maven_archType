@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="homeworkCmd1.Class1_Cmd1"/>
+      <class name="multiple.TestCases_For_MyData"/>
+      <class name="homeworkCmd3.Class1_Cmd3"/>
+      <class name="homeworkCmd2.Class1_Cmd2"/>
+      <class name="homeworkCmd3.Class2_Cmd3"/>
+      <class name="testing_dataProvider.DataProvider_Introduction"/>
+      <class name="homeworkCmd2.Class2_Cmd2"/>
+      <class name="parallel_exection_testCases.Parallel_Part1"/>
+      <class name="homeworkCmd3.Class3_Cmd3"/>
+      <class name="homeworkCmd1.Class3_Cmd1"/>
+      <class name="groups_in_testNG.Groups_Concepts"/>
+      <class name="homeworkCmd1.Class2_Cmd1"/>
+      <class name="homeworkCmd2.Class3_Cmd2"/>
+      <class name="parallel_exection_testCases.Parallel_Part2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

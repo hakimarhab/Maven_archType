@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="6" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-05T16:03:29 CST" name="Suite" finished-at="2022-12-05T16:03:29 CST" duration-ms="41">
+    <groups>
+      <group name="regression">
+        <method signature="Groups_Concepts.testCase3()[pri:0, instance:groups_in_testNG.Groups_Concepts@3c77d488]" name="testCase3" class="groups_in_testNG.Groups_Concepts"/>
+        <method signature="Groups_Concepts.testCase6()[pri:0, instance:groups_in_testNG.Groups_Concepts@3c77d488]" name="testCase6" class="groups_in_testNG.Groups_Concepts"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="Groups_Concepts.testCase2()[pri:0, instance:groups_in_testNG.Groups_Concepts@3c77d488]" name="testCase2" class="groups_in_testNG.Groups_Concepts"/>
+        <method signature="Groups_Concepts.testCase3()[pri:0, instance:groups_in_testNG.Groups_Concepts@3c77d488]" name="testCase3" class="groups_in_testNG.Groups_Concepts"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="Groups_Concepts.testCase2()[pri:0, instance:groups_in_testNG.Groups_Concepts@3c77d488]" name="testCase2" class="groups_in_testNG.Groups_Concepts"/>
+        <method signature="Groups_Concepts.testCase3()[pri:0, instance:groups_in_testNG.Groups_Concepts@3c77d488]" name="testCase3" class="groups_in_testNG.Groups_Concepts"/>
+        <method signature="Groups_Concepts.testCase6()[pri:0, instance:groups_in_testNG.Groups_Concepts@3c77d488]" name="testCase6" class="groups_in_testNG.Groups_Concepts"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2022-12-05T16:03:29 CST" name="Test" finished-at="2022-12-05T16:03:29 CST" duration-ms="41">
+      <class name="groups_in_testNG.Groups_Concepts">
+        <test-method signature="testCase2()[pri:0, instance:groups_in_testNG.Groups_Concepts@3c77d488]" started-at="2022-12-05T16:03:29 CST" name="testCase2" finished-at="2022-12-05T16:03:29 CST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method signature="testCase3()[pri:0, instance:groups_in_testNG.Groups_Concepts@3c77d488]" started-at="2022-12-05T16:03:29 CST" name="testCase3" finished-at="2022-12-05T16:03:29 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase3 -->
+        <test-method signature="testCase6()[pri:0, instance:groups_in_testNG.Groups_Concepts@3c77d488]" started-at="2022-12-05T16:03:29 CST" name="testCase6" finished-at="2022-12-05T16:03:29 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase6 -->
+      </class> <!-- groups_in_testNG.Groups_Concepts -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
